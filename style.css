@@ -1,0 +1,58 @@
+/* Set the font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Style the container div */
+  #app {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the audio input */
+  input[type="file"] {
+    margin-top: 20px;
+    display: block;
+  }
+  
+  /* Style the play button */
+  button {
+    margin-top: 20px;
+    display: block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Style the effects controls */
+  input[type="range"] {
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
